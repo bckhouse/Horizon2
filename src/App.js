@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import SignIn from './views/auth/SignIn';
-import Admin from './layouts/admin';
+import Admin from './layouts/admin'; ##ChangeRepo
 
 const App = () => {
   return (
